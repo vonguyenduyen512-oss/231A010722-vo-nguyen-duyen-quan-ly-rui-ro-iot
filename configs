@@ -1,0 +1,26 @@
+{
+  "_ghi_chu": "Luồng dữ liệu của mô hình IoT quy mô nhỏ, khớp với Hình 2.1/3.1 (Kiến trúc tổng thể) trong báo cáo. Dùng làm cơ sở xác định bề mặt tấn công cho Risk Register (mục 6.2).",
+  "nodes": [
+    { "id": "sensor-pir-01", "loai": "Cảm biến PIR", "vung": "Không tin cậy" },
+    { "id": "sensor-th-01", "loai": "Cảm biến nhiệt độ/độ ẩm", "vung": "Không tin cậy" },
+    { "id": "camera-ip-01", "loai": "Camera IP", "vung": "Không tin cậy" },
+    { "id": "smartlock-01", "loai": "Khóa cửa thông minh", "vung": "Không tin cậy" },
+    { "id": "gateway-home-01", "loai": "Gateway/Edge", "vung": "Bán tin cậy" },
+    { "id": "mqtt-broker", "loai": "MQTT Broker (Mosquitto)", "vung": "Bán tin cậy" },
+    { "id": "cloud-server", "loai": "Máy chủ / Cloud server", "vung": "Tin cậy" },
+    { "id": "database", "loai": "Cơ sở dữ liệu", "vung": "Tin cậy" },
+    { "id": "app-quanly-01", "loai": "Ứng dụng quản lý / Dashboard", "vung": "Tin cậy" },
+    { "id": "admin-user", "loai": "Người dùng / Quản trị viên", "vung": "Tin cậy" }
+  ],
+  "edges": [
+    { "tu": "sensor-pir-01", "den": "gateway-home-01", "giao_thuc": "MQTT", "ghi_chu": "Không mã hóa — liên quan R-03, R-07" },
+    { "tu": "sensor-th-01", "den": "gateway-home-01", "giao_thuc": "MQTT" },
+    { "tu": "camera-ip-01", "den": "gateway-home-01", "giao_thuc": "RTSP/HTTP" },
+    { "tu": "smartlock-01", "den": "gateway-home-01", "giao_thuc": "BLE/Wi-Fi", "ghi_chu": "Nguy cơ replay attack — R-16" },
+    { "tu": "gateway-home-01", "den": "mqtt-broker", "giao_thuc": "MQTT" },
+    { "tu": "mqtt-broker", "den": "cloud-server", "giao_thuc": "MQTT/HTTPS" },
+    { "tu": "cloud-server", "den": "database", "giao_thuc": "Nội bộ" },
+    { "tu": "cloud-server", "den": "app-quanly-01", "giao_thuc": "HTTPS/REST API" },
+    { "tu": "app-quanly-01", "den": "admin-user", "giao_thuc": "Web/App UI" }
+  ]
+}
