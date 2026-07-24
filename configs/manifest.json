@@ -1,0 +1,97 @@
+{
+  "_ghi_chu": "Danh mục tài sản hệ thống IoT quy mô nhỏ dùng trong đề tài (khớp Bảng 6.1, báo cáo mục 6.1). Mô hình giả lập, phục vụ phân tích rủi ro.",
+  "de_tai": "231A010722 - Quản lý rủi ro bảo mật cho hệ thống IoT quy mô nhỏ",
+  "so_luong_tai_san": 15,
+  "tai_san": [
+    {
+      "ten_tai_san": "Cảm biến nhiệt độ/độ ẩm",
+      "loai": "Thiết bị IoT",
+      "gia_tri": 3,
+      "vung_tin_cay": "Không tin cậy (Thiết bị)"
+    },
+    {
+      "ten_tai_san": "Camera IP",
+      "loai": "Thiết bị IoT",
+      "gia_tri": 4,
+      "vung_tin_cay": "Không tin cậy (Thiết bị)"
+    },
+    {
+      "ten_tai_san": "Cảm biến chuyển động (PIR)",
+      "loai": "Thiết bị IoT",
+      "gia_tri": 3,
+      "vung_tin_cay": "Không tin cậy (Thiết bị)"
+    },
+    {
+      "ten_tai_san": "Khóa cửa thông minh",
+      "loai": "Thiết bị IoT",
+      "gia_tri": 5,
+      "vung_tin_cay": "Không tin cậy (Thiết bị)"
+    },
+    {
+      "ten_tai_san": "Gateway / Edge Device",
+      "loai": "Thiết bị mạng",
+      "gia_tri": 5,
+      "vung_tin_cay": "Bán tin cậy (Gateway/Edge)"
+    },
+    {
+      "ten_tai_san": "Firmware thiết bị",
+      "loai": "Phần mềm nhúng",
+      "gia_tri": 4,
+      "vung_tin_cay": "Không tin cậy / bán tin cậy"
+    },
+    {
+      "ten_tai_san": "Dữ liệu cảm biến",
+      "loai": "Dữ liệu",
+      "gia_tri": 3,
+      "vung_tin_cay": "Xuyên suốt các vùng"
+    },
+    {
+      "ten_tai_san": "Tài khoản quản trị",
+      "loai": "Định danh/Truy cập",
+      "gia_tri": 5,
+      "vung_tin_cay": "Tin cậy (Ứng dụng/Người dùng)"
+    },
+    {
+      "ten_tai_san": "Cơ sở dữ liệu (Database)",
+      "loai": "Dữ liệu/Hạ tầng",
+      "gia_tri": 5,
+      "vung_tin_cay": "Tin cậy (Server/Cloud)"
+    },
+    {
+      "ten_tai_san": "Máy chủ / Cloud server",
+      "loai": "Hạ tầng",
+      "gia_tri": 5,
+      "vung_tin_cay": "Tin cậy (Server/Cloud)"
+    },
+    {
+      "ten_tai_san": "Web Dashboard",
+      "loai": "Phần mềm",
+      "gia_tri": 4,
+      "vung_tin_cay": "Tin cậy (Ứng dụng/Người dùng)"
+    },
+    {
+      "ten_tai_san": "Ứng dụng di động (Mobile App)",
+      "loai": "Phần mềm",
+      "gia_tri": 4,
+      "vung_tin_cay": "Tin cậy (Ứng dụng/Người dùng)"
+    },
+    {
+      "ten_tai_san": "Khóa mã hóa (Encryption keys)",
+      "loai": "Định danh/Bảo mật",
+      "gia_tri": 5,
+      "vung_tin_cay": "Xuyên suốt các vùng"
+    },
+    {
+      "ten_tai_san": "Hạ tầng mạng nội bộ/Internet",
+      "loai": "Hạ tầng mạng",
+      "gia_tri": 4,
+      "vung_tin_cay": "Bán tin cậy/không tin cậy"
+    },
+    {
+      "ten_tai_san": "Nhật ký hệ thống (Log)",
+      "loai": "Dữ liệu",
+      "gia_tri": 3,
+      "vung_tin_cay": "Tin cậy (Server/Cloud)"
+    }
+  ]
+}
