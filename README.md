@@ -29,18 +29,28 @@ Sinh viên: Võ Nguyễn Duyên — MSSV: 231A010722
 ```
 231A010722-vo-nguyen-duyen-quan-ly-rui-ro-iot/
 ├── README.md
-├── report/       # Báo cáo đầy đủ (.docx, .pdf) + sơ đồ Hình 2.1/2.2/3.1/3.2
-├── slides/       # Bản trình chiếu (.pptx)
-├── results/      # Risk Register, ma trận 5x5, kế hoạch xử lý, checklist (Bảng 6.1-6.5)
-└── references/   # Tài liệu tham khảo OWASP, NIST
+├── report/
+│   ├── 231A010722_VoNguyenDuyen_35_BaoCao.docx
+│   └── 231A010722_VoNguyenDuyen_35_BaoCao.pdf
+├── slides/
+│   └── 231A010722_SlideTrinhBay_DeTai35.pptx      (11 trang)
+├── results/
+│   └── Risk_Register_va_Ma_tran_Rui_ro.xlsx        (5 sheet: 6.1–6.5)
+└── references/
+    └── README.md                                    (6 tài liệu tham khảo)
 ```
 
 ## Hướng dẫn sử dụng
 
 1. Đọc báo cáo đầy đủ tại `report/` để nắm bối cảnh, phương pháp và kết quả.
-2. Mở file Risk Register trong `results/` để tra cứu mức độ rủi ro theo từng tài sản.
-3. Đối chiếu với ma trận 5×5 để xác định thứ tự ưu tiên xử lý.
-4. Sử dụng checklist (Bảng 6.5) theo tần suất tuần/tháng/quý để duy trì kiểm tra bảo mật định kỳ.
+2. Mở `results/Risk_Register_va_Ma_tran_Rui_ro.xlsx`:
+   - Sheet `6.1_DanhMucTaiSan`: danh mục 15 tài sản
+   - Sheet `6.2_RiskRegister`: 17 rủi ro, tự động phân loại mức độ theo công thức `L × I`
+   - Sheet `6.3_MaTran5x5`: ma trận rủi ro 5×5 kèm ID rủi ro tương ứng từng ô
+   - Sheet `6.4_KeHoachXuLy`: kế hoạch xử lý 5 rủi ro ưu tiên cao nhất
+   - Sheet `6.5_Checklist`: 15 hạng mục kiểm tra định kỳ (tuần/tháng/quý/6 tháng)
+3. Xem `slides/231A010722_SlideTrinhBay_DeTai35.pptx` để có bản tóm tắt trình chiếu (11 trang: mở đầu, kiến trúc, phương pháp, kết quả, ma trận rủi ro, kế hoạch xử lý, checklist, kết luận).
+4. Đối chiếu `references/README.md` cho danh sách tài liệu tham khảo OWASP/NIST.
 
 ## Kết quả chính
 
