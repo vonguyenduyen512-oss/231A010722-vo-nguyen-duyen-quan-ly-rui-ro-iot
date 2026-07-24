@@ -1,0 +1,18 @@
+﻿ID,TaiSan,MoiDeDoa,LoHong,Likelihood,Impact,DiemRuiRo,MucDo
+R-01,Camera IP,Truy cập trái phép vào thiết bị,Sử dụng mật khẩu mặc định của nhà sản xuất,4,4,16,Rất cao
+R-02,Gateway,Khai thác lỗ hổng để chiếm quyền điều khiển,Gateway không được cập nhật firmware định kỳ,4,5,20,Nghiêm trọng
+R-03,Dữ liệu cảm biến,Nghe lén dữ liệu trong quá trình truyền tải,Dữ liệu truyền giữa thiết bị và gateway không được mã hóa,3,3,9,Trung bình
+R-04,Tài khoản quản trị,Chiếm quyền tài khoản quản trị,"Mật khẩu yếu, không áp dụng MFA",5,4,20,Nghiêm trọng
+R-05,Máy chủ / Cloud server,Truy cập trái phép vào máy chủ,"Cấu hình sai, mở các cổng dịch vụ không cần thiết",3,4,12,Cao
+R-06,Firmware thiết bị,Khai thác lỗ hổng đã công bố (CVE),"Firmware lỗi thời, không còn được nhà sản xuất hỗ trợ",4,4,16,Rất cao
+R-07,Gateway / MQTT,"Giả mạo thiết bị, chèn dữ liệu giả",Giao thức MQTT không xác thực và không mã hóa,3,3,9,Trung bình
+R-08,Hạ tầng mạng nội bộ,Lan truyền tấn công giữa các thiết bị,Mạng nội bộ không được phân đoạn (VLAN),2,3,6,Trung bình
+R-09,Nhật ký hệ thống (Log),Không phát hiện kịp thời sự cố bảo mật,Thiếu cơ chế giám sát và ghi log hoạt động hệ thống,4,3,12,Cao
+R-10,Gateway / Máy chủ,Tấn công từ chối dịch vụ (DoS),Thiếu cơ chế giới hạn tốc độ truy cập (rate limiting),2,4,8,Trung bình
+R-11,Ứng dụng quản lý,"Khai thác lỗ hổng ứng dụng web (XSS, SQLi)",Ứng dụng quản lý chưa kiểm thử bảo mật đầy đủ,3,4,12,Cao
+R-12,Cơ sở dữ liệu,Mất dữ liệu khi xảy ra sự cố,Sao lưu dữ liệu không đầy đủ hoặc không định kỳ,2,3,6,Trung bình
+R-13,Khóa mã hóa,Lộ khóa mã hóa dẫn đến giải mã dữ liệu trái phép,Quản lý và lưu trữ khóa mã hóa không chặt chẽ,2,4,8,Trung bình
+R-14,Ứng dụng quản lý / Server,Truy cập trái phép từ xa vào hệ thống quản lý,"Cho phép truy cập từ xa không giới hạn IP, không dùng VPN",4,4,16,Rất cao
+R-15,Người dùng / Quản trị viên,Bị lừa đảo (phishing) dẫn đến lộ thông tin đăng nhập,Thiếu nhận thức và đào tạo về an toàn thông tin,4,3,12,Cao
+R-16,Khóa cửa thông minh,Mở khóa trái phép từ xa (replay attack),Giao thức không dây (Wi-Fi/ZigBee/BLE) thiếu mã hóa,3,5,15,Rất cao
+R-17,Cảm biến chuyển động (PIR),Giả mạo/vô hiệu hóa cảm biến,Thiếu cơ chế giám sát tình trạng hoạt động (heartbeat),2,3,6,Trung bình
