@@ -1,0 +1,5 @@
+[2026-07-20T10:05:00] Chạy src/tinh_diem_rui_ro.py
+[2026-07-20T10:05:01] Đọc data/danh_sach_rui_ro_dau_vao.csv — 17 dòng
+[2026-07-20T10:05:01] Tính điểm rủi ro (L x I) và phân loại mức độ
+[2026-07-20T10:05:01] Ghi kết quả: results/output.csv (17 dòng)
+[2026-07-20T10:05:01] Tổng hợp: Nghiêm trọng=2, Rất cao=4, Cao=4, Trung bình=7, Thấp=0
