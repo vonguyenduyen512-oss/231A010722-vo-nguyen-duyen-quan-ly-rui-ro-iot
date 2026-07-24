@@ -40,10 +40,10 @@ Trường Đại học Văn Hiến – Khoa Công nghệ Thông tin
 231A010722-vo-nguyen-duyen-quan-ly-rui-ro-iot/
 ├── README.md
 ├── report/
-│   ├── 231A010722-VONGUYENDUYEN-DE TAI 35-BAOCAOTIEULUAN.docx
-│   └── 231A010722-VONGUYENDUYEN-DE TAI 35-BAOCAOTIEULUAN.pdf
+│   ├── 231A010722-VONGUYENDUYEN-BAOCAOTIEULUAN-DE TAI 35.docx
+│   └── 231A010722-VONGUYENDUYEN-BAOCAOTIEULUAN-DE TAI 35.pdf
 ├── slides/
-│   └── 231A010722_SlideTrinhBay_DeTai35.pptx
+│   └── 231A010722- SLIEDE TRINH BAY DE TAI 35.pptx
 ├── results/
 │   └── Risk_Register_va_Ma_tran_Rui_ro.xlsx
 └── references/
