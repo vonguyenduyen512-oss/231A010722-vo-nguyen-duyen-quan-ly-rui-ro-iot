@@ -45,10 +45,11 @@ Danh sách đầy đủ kèm URL và ngày truy cập: xem `references/link_nguo
 231A010722-vo-nguyen-duyen-quan-ly-rui-ro-iot/
 ├── README.md
 ├── report/
-│   └── 231A010722_VoNguyenDuyen_DeTai35_BaoCao.docx
+│   ├── 231A010722_VoNguyenDuyen_DeTai35_TieuLuan_CuoiKy.docx
+│   └── 231A010722_VoNguyenDuyen_DeTai35_TieuLuan_CuoiKy.pdf
 ├── slides/
-│   ├── 231A010722_VoNguyenDuyen_DeTai35_Slide.pptx
-│   └── 231A010722_VoNguyenDuyen_DeTai35_Slide.pdf
+│   ├── 231A010722_VoNguyenDuyen_DeTai35_SlideTrinhBay.pptx
+│   └── 231A010722_VoNguyenDuyen_DeTai35_SlideTrinhBay.pdf
 ├── results/
 │   ├── Risk_Register_va_Ma_tran_Rui_ro.xlsx
 │   ├── output.csv                  (kết quả script tinh_diem_rui_ro.py)
@@ -76,7 +77,7 @@ Danh sách đầy đủ kèm URL và ngày truy cập: xem `references/link_nguo
 
 ## Hướng dẫn sử dụng
 
-1. Đọc báo cáo đầy đủ trong `report/231A010722_VoNguyenDuyen_DeTai35_BaoCao.docx`.
+1. Đọc báo cáo đầy đủ trong `report/231A010722_VoNguyenDuyen_DeTai35_TieuLuan_CuoiKy.docx` (hoặc bản `.pdf` đi kèm).
 2. Mở `results/Risk_Register_va_Ma_tran_Rui_ro.xlsx`:
    - **Sheet `5.1_DanhMucTaiSan`:** Danh mục tài sản (khớp Bảng 5.1 báo cáo).
    - **Sheet `RiskRegister_5.2-5.3`:** Mối đe dọa, lỗ hổng, điểm rủi ro, biện pháp, rủi ro còn lại (khớp Bảng 5.2–5.3).
@@ -87,7 +88,7 @@ Danh sách đầy đủ kèm URL và ngày truy cập: xem `references/link_nguo
    python3 src/tinh_diem_rui_ro.py
    ```
    Đầu vào: `data/danh_sach_rui_ro_dau_vao.csv` — Đầu ra: `results/output.csv`. Nhật ký lần chạy gần nhất: `results/logs/log_chay_script.txt`.
-4. Xem `slides/231A010722_VoNguyenDuyen_DeTai35_Slide.pptx` (hoặc bản PDF) để xem nội dung tóm tắt.
+4. Xem `slides/231A010722_VoNguyenDuyen_DeTai35_SlideTrinhBay.pptx` (hoặc bản `.pdf` đi kèm) để xem nội dung tóm tắt (12 trang: bối cảnh → phạm vi → kiến trúc → phương pháp → kết quả → Risk Register → ma trận 5×5 → kế hoạch xử lý → vận hành → kết luận).
 5. Tham khảo danh sách tài liệu đầy đủ trong `references/link_nguon.md`.
 
 ---
