@@ -48,7 +48,8 @@ Danh sách đầy đủ kèm URL và ngày truy cập: xem `references/link_nguo
 │   ├── 231A010722_VoNguyenDuyen_DeTai35_TieuLuan_CuoiKy.docx
 │   └── 231A010722_VoNguyenDuyen_DeTai35_TieuLuan_CuoiKy.pdf
 ├── slides/
-│   
+│   ├── 231A010722_VoNguyenDuyen_DeTai35_SlideTrinhBay.pptx
+│   └── 231A010722_VoNguyenDuyen_DeTai35_SlideTrinhBay.pdf
 ├── results/
 │   ├── Risk_Register_va_Ma_tran_Rui_ro.xlsx
 │   ├── output.csv                  (kết quả script tinh_diem_rui_ro.py)
