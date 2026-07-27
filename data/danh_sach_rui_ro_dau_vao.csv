@@ -1,7 +1,0 @@
-ID,TaiSan,MoiDeDoa,LoHong,Likelihood,Impact
-R-01,Gateway,Khai thác lỗ hổng để chiếm quyền điều khiển,Gateway không được cập nhật firmware định kỳ,4,5
-R-02,Tài khoản quản trị,Chiếm quyền tài khoản quản trị,"Mật khẩu yếu, không áp dụng MFA",5,4
-R-03,Camera IP,Truy cập trái phép vào thiết bị,Sử dụng mật khẩu mặc định của nhà sản xuất,4,4
-R-04,Firmware thiết bị,Khai thác lỗ hổng đã công bố (CVE),"Firmware lỗi thời, không còn được nhà sản xuất hỗ trợ",4,4
-R-05,Ứng dụng quản lý/Server,Truy cập trái phép từ xa vào hệ thống quản lý,"Cho phép truy cập từ xa không giới hạn IP, không dùng VPN",4,4
-R-06,Khóa cửa thông minh,Mở khóa trái phép từ xa (replay attack),Giao thức không dây (Wi-Fi/ZigBee/BLE) thiếu mã hóa,3,5
