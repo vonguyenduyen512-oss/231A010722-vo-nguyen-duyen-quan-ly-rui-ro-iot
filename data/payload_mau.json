@@ -1,5 +1,5 @@
 {
-  "_ghi_chu": "Payload minh hoạ luồng dữ liệu cảm biến -> gateway trong mô hình IoT giả lập, dùng để phân tích rủi ro tại mục 6.2 (R-03, R-07). Không phải dữ liệu thật, không thu thập từ thiết bị vật lý.",
+  "_ghi_chu": "Payload minh hoạ luồng dữ liệu cảm biến -> gateway trong mô hình IoT giả lập, dùng để phân tích rủi ro tại mục 5.2 (R-03) và minh họa bổ sung cho mục 5.4. Không phải dữ liệu thật, không thu thập từ thiết bị vật lý.",
   "device_id": "sensor-pir-01",
   "device_type": "PIR_motion_sensor",
   "timestamp": "2026-07-20T08:15:32+07:00",
