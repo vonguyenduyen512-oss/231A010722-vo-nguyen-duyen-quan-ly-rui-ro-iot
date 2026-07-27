@@ -4,7 +4,7 @@ tinh_diem_rui_ro.py
 --------------------
 Script tính điểm rủi ro (Risk = Likelihood x Impact) và phân loại mức độ
 theo phương pháp NIST SP 800-30 / ma trận 5x5, dùng để tái tạo lại
-Risk Register (Bảng 6.2) và ma trận 5x5 (Bảng 6.3) từ dữ liệu đầu vào thô.
+Risk Register và ma trận 5x5 (Bảng 5.3) từ dữ liệu đầu vào thô.
 
 Đầu vào : data/danh_sach_rui_ro_dau_vao.csv  (ID, TaiSan, MoiDeDoa, LoHong, Likelihood, Impact)
 Đầu ra  : results/output.csv                 (bổ sung cột DiemRuiRo, MucDo)
