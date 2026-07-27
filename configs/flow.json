@@ -1,5 +1,5 @@
 {
-  "_ghi_chu": "Luồng dữ liệu của mô hình IoT quy mô nhỏ, khớp với Hình 2.1/3.1 (Kiến trúc tổng thể) trong báo cáo. Dùng làm cơ sở xác định bề mặt tấn công cho Risk Register (mục 6.2).",
+  "_ghi_chu": "Luồng dữ liệu của mô hình IoT quy mô nhỏ, khớp với Hình 2.1/3.1 (Kiến trúc tổng thể) trong báo cáo. Dùng làm cơ sở xác định bề mặt tấn công cho Risk Register (mục 5.2).",
   "nodes": [
     { "id": "sensor-pir-01", "loai": "Cảm biến PIR", "vung": "Không tin cậy" },
     { "id": "sensor-th-01", "loai": "Cảm biến nhiệt độ/độ ẩm", "vung": "Không tin cậy" },
@@ -13,7 +13,7 @@
     { "id": "admin-user", "loai": "Người dùng / Quản trị viên", "vung": "Tin cậy" }
   ],
   "edges": [
-    { "tu": "sensor-pir-01", "den": "gateway-home-01", "giao_thuc": "MQTT", "ghi_chu": "Không mã hóa — liên quan R-03, R-07" },
+    { "tu": "sensor-pir-01", "den": "gateway-home-01", "giao_thuc": "MQTT", "ghi_chu": "Không mã hóa — liên quan R-03; đồng thời minh họa lỗ hổng kênh truyền MQTT nêu tại mục 5.4 (biện pháp giảm thiểu bổ sung, ngoài 6 rủi ro chính)" },
     { "tu": "sensor-th-01", "den": "gateway-home-01", "giao_thuc": "MQTT" },
     { "tu": "camera-ip-01", "den": "gateway-home-01", "giao_thuc": "RTSP/HTTP" },
     { "tu": "smartlock-01", "den": "gateway-home-01", "giao_thuc": "BLE/Wi-Fi", "ghi_chu": "Nguy cơ replay attack — R-16" },
