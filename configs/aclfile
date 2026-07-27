@@ -1,5 +1,6 @@
 # Danh sách kiểm soát truy cập (ACL) đề xuất cho MQTT broker
-# — biện pháp khắc phục rủi ro R-07 (Bảng 6.4, báo cáo mục 6.4)
+# — biện pháp kỹ thuật bổ trợ cho mục 5.4 (Biện pháp giảm thiểu) của báo cáo,
+# minh họa kiểm soát truy cập kênh MQTT ngoài 6 rủi ro chính tại Bảng 5.2-5.3
 # Áp dụng cùng với allow_anonymous false trong mosquitto.conf
 
 # Gateway chính: được publish/subscribe toàn bộ topic nội bộ
