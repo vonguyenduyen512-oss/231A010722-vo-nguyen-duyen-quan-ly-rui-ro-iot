@@ -1,0 +1,5 @@
+﻿HangMuc,PhatHien,MucDo,KhuyenNghi
+allow_anonymous,Broker cho phép kết nối ẩn danh (allow_anonymous true),Nghiêm trọng,Đặt allow_anonymous false và bắt buộc xác thực user/password hoặc chứng chỉ
+TLS/mã hóa kênh truyền,Không tìm thấy listener 8883 (cổng TLS) — dữ liệu truyền không mã hóa,Cao,Bật listener 8883 kèm certfile/keyfile (TLS) cho toàn bộ kết nối MQTT
+Xác thực user/password,Không cấu hình password_file cho broker,Cao,Thiết lập password_file và acl_file để kiểm soát truy cập theo user
+Phạm vi quyền ACL,Có user được cấp quyền readwrite trên toàn bộ topic (home/#),Trung bình,Giới hạn quyền theo nguyên tắc least privilege — chỉ cấp topic cần thiết cho từng vai trò
