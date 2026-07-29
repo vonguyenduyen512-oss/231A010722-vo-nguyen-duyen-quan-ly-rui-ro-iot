@@ -3,3 +3,8 @@
 [2026-07-24T10:05:01] Tính điểm rủi ro (L x I) và phân loại mức độ
 [2026-07-24T10:05:01] Ghi kết quả: results/output.csv (6 dòng)
 [2026-07-24T10:05:01] Tổng hợp: Nghiêm trọng=2, Rất cao=4, Cao=0, Trung bình=0, Thấp=0
+
+[2026-07-28T09:00:00] Chạy src/kiem_tra_cau_hinh.py
+[2026-07-28T09:00:00] Quét configs/mosquitto.conf, configs/aclfile (static configuration audit)
+[2026-07-28T09:00:00] Phát hiện 4 vấn đề: allow_anonymous=true (Nghiêm trọng), thiếu TLS 8883 (Cao), thiếu password_file (Cao), ACL readwrite home/# quá rộng (Trung bình)
+[2026-07-28T09:00:00] Ghi kết quả: results/output_audit_config.csv (4 dòng)
