@@ -3,10 +3,12 @@
 Báo cáo tiểu luận cuối kỳ – Học phần: **Bảo mật IoT (INT4410)**
 Trường Đại học Văn Hiến – Khoa Công nghệ Thông tin
 
-**Sinh viên:** Võ Nguyễn Duyên
-**MSSV:** 231A010722
-**Đề tài:** 35 — Quản lý rủi ro bảo mật cho hệ thống IoT quy mô nhỏ (Hướng G)
 
+**Đề tài:** 35 — Quản lý rủi ro bảo mật cho hệ thống IoT quy mô nhỏ (Hướng G)
+- **Sinh viên thực hiện:** Võ Nguyễn Duyên — MSSV 231A010722
+- **Lớp học phần:** INT4410 — Bảo mật IoT
+- **Giảng viên hướng dẫn:** Hồ Nhựt Minh
+- **Trường:** Đại học Văn Hiến — Khoa Công nghệ Thông tin
 ---
 
 ## Phạm vi nghiên cứu
