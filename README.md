@@ -53,6 +53,7 @@ Danh sách đầy đủ kèm URL và ngày truy cập: xem `references/link_nguo
 ├── results/
 │   ├── Risk_Register_va_Ma_tran_Rui_ro.xlsx
 │   ├── output.csv                  (kết quả script tinh_diem_rui_ro.py)
+│   ├── output_audit_config.csv     (kết quả script kiem_tra_cau_hinh.py — quét cấu hình MQTT)
 │   ├── screenshots/                (Hình 4.1–4.3 dùng trong báo cáo)
 │   │   ├── hinh4.1_danh_muc_tai_san.png
 │   │   ├── hinh4.2_risk_register.png
@@ -60,7 +61,8 @@ Danh sách đầy đủ kèm URL và ngày truy cập: xem `references/link_nguo
 │   └── logs/
 │       └── log_chay_script.txt     (nhật ký chạy script — xem Bảng A.1, Phụ lục A)
 ├── src/
-│   └── tinh_diem_rui_ro.py         (script tính điểm rủi ro L×I và phân loại mức độ)
+│   ├── tinh_diem_rui_ro.py         (script tính điểm rủi ro L×I và phân loại mức độ)
+│   └── kiem_tra_cau_hinh.py        (script quét cấu hình tĩnh MQTT, tự động phát hiện lỗ hổng — mục 4.5.1)
 ├── data/
 │   ├── danh_sach_rui_ro_dau_vao.csv
 │   └── payload_mau.json            (payload mô phỏng, không phải dữ liệu thật)
@@ -88,6 +90,7 @@ Danh sách đầy đủ kèm URL và ngày truy cập: xem `references/link_nguo
    python3 src/tinh_diem_rui_ro.py
    ```
    Đầu vào: `data/danh_sach_rui_ro_dau_vao.csv` — Đầu ra: `results/output.csv`. Nhật ký lần chạy gần nhất: `results/logs/log_chay_script.txt`.
+   Ngoài ra, chạy `python3 src/kiem_tra_cau_hinh.py` để tự động quét tĩnh `configs/mosquitto.conf` và `configs/aclfile`, phát hiện lỗ hổng tầng MQTT (allow_anonymous, thiếu TLS, thiếu password_file, ACL quá rộng) — kết quả ghi tại `results/output_audit_config.csv` (xem mục 4.5.1 báo cáo).
 4. Xem `slides/231A010722_VoNguyenDuyen_DeTai35_SlideTrinhBay.pptx` (hoặc bản `.pdf` đi kèm) để xem nội dung tóm tắt (12 trang: bối cảnh → phạm vi → kiến trúc → phương pháp → kết quả → Risk Register → ma trận 5×5 → kế hoạch xử lý → vận hành → kết luận).
 5. Tham khảo danh sách tài liệu đầy đủ trong `references/link_nguon.md`.
 
